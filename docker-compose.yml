@@ -2,9 +2,9 @@ version: "3"
 
 services:
         web1:
-            image: "my_img:v1"
+            build: .
             ports: ["80:80"]
 
         web2:
-            image: "my_img:v1"
+            build: .
             ports: ["81:80"]
